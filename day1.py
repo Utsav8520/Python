@@ -33,7 +33,16 @@ if is_raining:
     print("Carry an Umbrella")
 else:
     print("dont")
+    
+    #mod
 
+#program to ask the user for number of people, total cash, and tip in percentage and to divide the cash equally among the people at last 
+people=int(input(" Enter the number of people"))
+Amount=int(input(" Enter the number of amount"))
+Tip_in_percentage=float(input(" Enter the tip in percentage"))
+Tip_in_number=(Tip_in_percentage/100*Amount)
+Divided_amount=(Tip_in_number*people+Amount)/people
+print(Divided_amount)
 
 
 
