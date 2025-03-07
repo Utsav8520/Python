@@ -59,3 +59,5 @@ for x in name:
         #--for loop
         #--create a list and print data using function
         #--bus  10>50,10-19=100,20-59=200,59>50, A/c: 50 
+
+age=input("Enter your age: ")
